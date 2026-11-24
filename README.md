@@ -2,24 +2,24 @@
 
 This project implements an **Ordinary Least Squares (OLS) Linear Regression** model using Python to analyze and predict the body mass of penguins based on their physical attributes. The primary objective is to scientifically validate whether the dataset satisfies all classical statistical assumptions for linear modeling.
 
-## 🚀 Key Project Findings
+## Key Project Findings
 * **Highly Powerful Predictor:** Flipper length (`flipper_length_mm`) acts as an outstanding direct predictor of body mass, explaining approximately **76.2% of the total variance in weight**.
 * **Scientifically Valid Model:** This model successfully satisfies the rigorous assumptions of **Linearity**, **Normality** (evaluated via a Q-Q plot), **Homoscedasticity** (constant error variance), and **Independence** (Durbin-Watson metric close to 2.10).
 
-## 🛠️ Technologies & Libraries Used
+## Technologies & Libraries Used
 * **Python 3**
 * **Pandas & NumPy**
 * **Seaborn & Matplotlib**
 * **Statsmodels & SciPy**
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Before training the OLS model, a matrix scatter plot (`pairplot`) was generated to visualize the general distributions and cross-variable correlations across the dataset:
 
 <p align="center">
   <img src="images/pairplot.png" width="70%" alt="Pairplot Exploration">
 </p>
 
-## 📈 Statistical Assumptions Framework
+## Statistical Assumptions Framework
 To ensure model robustness, the script executes a comprehensive evaluation workflow:
 1. **Linearity:** Exploratory analysis using cross-variable scatter matrix visualization.
 2. **Normality of Residuals:** Quantile-Quantile (Q-Q) plotting mapped against a reference line.
